@@ -11,11 +11,18 @@ class GiphySearchText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 10),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
       child: TextField(
           controller: controller,
           decoration: InputDecoration(
             hintText: GiphyContext.of(context).searchHintText,
+            border: const OutlineInputBorder(
+              borderRadius: BorderRadius.all(
+                Radius.circular(30),
+              ),
+            ),
+            isDense: true,
+            contentPadding: const EdgeInsets.all(8),
           ),
           onChanged: onChanged),
     );
