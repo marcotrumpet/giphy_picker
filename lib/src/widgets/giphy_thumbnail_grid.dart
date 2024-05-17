@@ -41,6 +41,7 @@ class _GiphyThumbnailGridState extends State<GiphyThumbnailGrid> {
               if (gif != null) {
                 if (mounted && giphy.showPreviewPage) {
                   Navigator.push(
+                    // ignore: use_build_context_synchronously
                     context,
                     MaterialPageRoute(
                       builder: (BuildContext context) => GiphyPreviewPage(
