@@ -3,9 +3,9 @@ description: A fast and customizable animated GIF picker for your flutter app.
 version: 3.0.1
 homepage: https://github.com/firstfloorsoftware/giphy_picker
 screenshots:
-  - description: 'Browsing trending gifs from Giphy'
+  - description: "Browsing trending gifs from Giphy"
     path: example/screenshots/giphy_picker_demo.gif
-  - description: 'Browsing trending gifs from Giphy in dark mode'
+  - description: "Browsing trending gifs from Giphy in dark mode"
     path: example/screenshots/giphy_picker_dark_demo.gif
 
 environment:
@@ -15,7 +15,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  http: ^0.13.4
+  http: 1.2.1
 
 dev_dependencies:
   flutter_test:
